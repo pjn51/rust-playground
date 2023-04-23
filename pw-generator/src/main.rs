@@ -24,7 +24,7 @@ fn main() {
 
     let mut pw = String::new();
 
-    for i in 0..=*pw_length {
+    for _i in 0..=*pw_length {
         let n = random_int(0,82);
         let character = fetch_char(n);
         if let Some(c) = character {
