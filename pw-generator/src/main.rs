@@ -15,7 +15,7 @@ fn fetch_char(index: i32) -> Option<char> {
                      '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '[', '{', ']', '}', '\\', '|', ';', ':', '\'', '\"', ',', '<', '.', '>', '/', '?'];
     //println!("{}", all_chars.len());
     return all_chars.get(index).map(|c| *c);
-} 
+}
 
 fn main() {
     println!("Hello, world!");
