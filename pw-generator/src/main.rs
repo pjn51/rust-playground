@@ -18,7 +18,6 @@ fn fetch_char(index: i32) -> Option<char> {
 }
 
 fn main() {
-    println!("Hello, world!");
     let args: Vec<String> = env::args().collect();
     let pw_length = &args[1].trim().parse().expect("failure");
 
@@ -33,7 +32,5 @@ fn main() {
     
 
     }
-
-    println!("{}", pw);
-
+    println!("\nPassword generated: {}\n", pw);
 }
