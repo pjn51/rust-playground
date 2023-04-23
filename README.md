@@ -7,3 +7,6 @@ A function to iterate an arbitrary number of times, returning progression every 
 
 ## `count-occurances`
 A function where the user passes a string, and a character to count, and is given a count of that character's occurances.s
+
+## `pw-generator`
+A function where the user passes in a length, and recieves a password of the given length made up of random characters.
